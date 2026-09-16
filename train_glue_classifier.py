@@ -1,19 +1,3 @@
-"""
-Fine-tuning DistilBERT on the GLUE benchmark for text classification.
-
-This script fine-tunes a pretrained Transformer model (default: DistilBERT)
-on a GLUE task (default: CoLA - grammatical acceptability) using PyTorch
-and the Hugging Face `Trainer` API, then pushes the trained model to the
-Hugging Face Hub and demonstrates inference.
-
-Usage:
-    python train_glue_classifier.py
-
-Before running:
-    - Install dependencies from requirements.txt
-    - Log in to Hugging Face (see instructions.md)
-"""
-
 import numpy as np
 import torch
 from datasets import load_dataset
@@ -27,9 +11,9 @@ from transformers import (
     pipeline,
 )
 
-# ---------------------------------------------------------------------------
-# 1. Configuration
-# ---------------------------------------------------------------------------
+
+# 1. 
+
 
 GLUE_TASKS = [
     "cola",

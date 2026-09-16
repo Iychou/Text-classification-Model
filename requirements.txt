@@ -1,0 +1,10 @@
+transformers>=5.0.0
+datasets
+evaluate
+scipy
+scikit-learn
+huggingface_hub
+accelerate
+torch
+pandas
+numpy

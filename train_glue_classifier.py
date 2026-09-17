@@ -32,7 +32,7 @@ task = "cola"
 model_checkpoint = "distilbert-base-uncased"
 batch_size = 16
 
-# Maps each GLUE task to the dataset column name(s) containing the sentence(s)
+# 
 task_to_keys = {
     "cola": ("sentence", None),
     "mnli": ("premise", "hypothesis"),

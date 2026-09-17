@@ -57,9 +57,9 @@ def main():
     print(dataset)
     print("Example row:", dataset["train"][0])
 
-    # -----------------------------------------------------------------------
-    # 3. Load the tokenizer and preprocess the dataset
-    # -----------------------------------------------------------------------
+    # 
+    # 3. 
+    # 
     tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 
     sentence1_key, sentence2_key = task_to_keys[task]

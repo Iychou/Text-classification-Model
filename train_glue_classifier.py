@@ -48,9 +48,8 @@ task_to_keys = {
 
 
 def main():
-    # -----------------------------------------------------------------------
-    # 2. Load the dataset and the evaluation metric
-    # -----------------------------------------------------------------------
+    # 2. 
+    
     actual_task = "mnli" if task == "mnli-mm" else task
     dataset = load_dataset("nyu-mll/glue", actual_task)
     metric = load("glue", actual_task)
